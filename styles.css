@@ -83,6 +83,7 @@ html {
     .item-b {
         flex-grow: 1;
         flex-shrink: 1;
+        height: auto;
     }
 
     .item-b p {
