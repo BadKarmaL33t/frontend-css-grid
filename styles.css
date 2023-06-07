@@ -14,7 +14,7 @@ html {
 .css-grid {
     display: grid;
     justify-content: center;
-    grid-template-columns: 31vw 31vw 31vw;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 50px 190px 100px auto 50px;
     grid-gap: 16px;
     grid-template-areas:
@@ -95,3 +95,7 @@ html {
         height: 50px;
     }
 }
+
+/* grid-template-columns: repeat(3, 1fr);
+ 1 fr is een fractie van de beschikbare ruimte,
+ dus 3 kolommen eerlijk verdeeld in dit geval*/
